@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED)
         filter.addAction(Intent.ACTION_TIME_CHANGED)
         filter.addAction(Intent.ACTION_POWER_CONNECTED)
-        filter.addAction(Intent.ACTION_POWER_DISCONNECTED)
+        filter.addAction(Intent.ACTION_ATTACH_DATA)
         registerReceiver(broadcast, filter)
     }
 
