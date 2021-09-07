@@ -16,8 +16,6 @@ class MainActivity : AppCompatActivity() {
         val filter=IntentFilter()
         Log.e("A","Xin chao duc")
         Log.e("A","Xin chao")
-        Log.e("TAG","linhduc")
-        Log.e("A","Xin chao")
         filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED)
         filter.addAction(Intent.ACTION_APPLICATION_PREFERENCES)
         filter.addAction(Intent.ACTION_POWER_CONNECTED)
