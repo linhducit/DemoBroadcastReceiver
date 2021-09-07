@@ -3,6 +3,7 @@ package com.example.demobroadcastreceiver
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val filter=IntentFilter()
-
+        Log.e("TAG","linhduc")
         filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED)
         filter.addAction(Intent.ACTION_APPLICATION_PREFERENCES)
         filter.addAction(Intent.ACTION_POWER_CONNECTED)
