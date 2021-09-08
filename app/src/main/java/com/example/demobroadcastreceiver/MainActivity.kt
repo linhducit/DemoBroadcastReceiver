@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         val filter = IntentFilter()
         Log.e("A", "Xin chao duc")
         Log.e("A", "Issue9")
+        Log.e("A", "Issue9.1")
         filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED)
         filter.addAction(Intent.ACTION_POWER_CONNECTED)
         filter.addAction(Intent.ACTION_ATTACH_DATA)
