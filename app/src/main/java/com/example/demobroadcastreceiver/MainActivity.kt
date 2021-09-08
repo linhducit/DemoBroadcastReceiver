@@ -14,10 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val filter=IntentFilter()
-        Log.e("A","Xin chao a duc")
-        Log.e("A","Xin chao")
+        Log.e("A","Xin chao duc")
         filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED)
-        filter.addAction(Intent.ACTION_APPLICATION_PREFERENCES)
         filter.addAction(Intent.ACTION_POWER_CONNECTED)
         filter.addAction(Intent.ACTION_ATTACH_DATA)
         registerReceiver(broadcast, filter)
