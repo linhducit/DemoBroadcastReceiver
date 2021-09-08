@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         Log.e("A", "Xin chao duc")
         Log.e("A", "Issue8")
         Log.e("A", "Issue8.1")
+        Log.e("A", "Issue9")
         filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED)
         filter.addAction(Intent.ACTION_POWER_CONNECTED)
         filter.addAction(Intent.ACTION_ATTACH_DATA)
