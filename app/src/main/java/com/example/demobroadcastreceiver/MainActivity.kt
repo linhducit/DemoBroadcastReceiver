@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         filter.addAction(Intent.ACTION_POWER_CONNECTED)
         filter.addAction(Intent.ACTION_ATTACH_DATA)
         registerReceiver(broadcast, filter)
+        Log.e("A", "Issue11 khong hieu")
+
     }
 
     override fun onStop() {
